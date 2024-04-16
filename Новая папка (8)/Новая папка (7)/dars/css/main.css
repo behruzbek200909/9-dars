@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-header{
+    width: 100%;
+}
+.cof{
+    width: 236px;
+    height: 26px;
+    top: 43.56px;
+    left: 80.1px;
+    padding: 0.44px, 0.1px, 0.56px, 0.9px;    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 500px;
+height: 15px;
+padding: 0px, 1px, 0px, 0px;
+}
+.hero{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 100px;    
+    text-align: center;
+    align-items: center;
+}
+*li{
+    margin-left: 50px;
+}
+li.l{
+    width: 34px;
+    height: 15px;    
+}
+li.o{
+    width: 100px;
+    height: 15px;    
+}
+li.p{
+    width: 180px;
+    height: 15px;    
+}
+
+.a{
+    background-image: url(../img/Group\ 7.svg);
+    background-repeat: no-repeat;
+    height: 450px;    
+    margin-left: 50px;
+}
+.b{
+    width: 445px;
+    height: 176px;    
+    margin: 100 150;
+}
+.about{
+    width: 188px;
+    height: 48px;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #FEFCF7;        
+}
+.text{
+    width: 445px;
+    height: 104px;
+    margin-top: 50px;   
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FEFCF7;         
+}
+.hum{
+    display: none;
+}
+section.section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 50px;
+    height: 520px;    
+}
+.bito{
+    margin-left: 50px;
+    width: 485px;
+    height: 606px;         
+    border-radius: 10px; 
+}
+.b-img{
+    width: 339px;
+    height: 453px;
+    padding: 0px, 0px, 25px, 0px;   
+    margin-top: 80px;
+}
+.our{
+    width: 286px;
+    height: 48px;
+    font-family: Fraunces 9pt;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #333D4B;        
+}
+.were{
+    width: 500px;
+    height: 260px;
+    top: 80px;
+    opacity: 80%;    
+    color: #333D4B;        
+}
+main.main{
+    height: 562px;   
+    margin-top: 100px;
+    margin-left: 50px; 
+}
+.tex{
+    width: 540px;
+    height: 210px; 
+    padding-left: 70px;
+    padding-top: 90px; 
+    display: flex;
+    background: #2C343E; 
+}
+.un{
+    width: 517px;
+    height: 48px;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #FEFCF7;        
+}
+.al{
+    width: 540px;
+    height: 130px;
+    opacity: 0.8px;   
+    color: #FEFCF7; 
+    margin-top: 40px;
+}
+.cup{
+    width: 512px;
+    height: 767px;    
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-top: -150px;
+}
+.or{
+    width: 255px;
+    height: 32px;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #83888F;          
+}
+.section{
+    margin-top: 300px;
+    margin-left: 80px;
+}
+.one{
+    width: 285px;
+    height: 167px;    
+}
+.flags{
+    margin-top: 60px;
+    height: 366px;
+    display: flex;
+    justify-content: space-between;   
+}
+.flag{
+    width: 40.84px;
+    height: 49.07px; 
+}
+.uk{
+    width: 272px;
+    height: 36px;
+    font-family: Fraunces 9pt;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #333D4B;        
+}
+.olti{
+    width: 200px;
+    height: 107px; 
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333D4B;       
+}
+.canada{
+    width: 51.56px;
+    height: 49.96px;    
+}
+.can{
+    width: 93px;
+    height: 36px;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #333D4B; 
+}  
+.Austraila{
+    width: 48.97px;
+    height: 43.94px;    
+}
+.Austrail{
+    width: 118px;
+    height: 36px;
+    font-family: Fraunces 9pt;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #333D4B;        
+}
+.footer{
+    margin-top: 500px;
+    height: 208px;  
+    margin-left: 50px;  
+}
+.f{
+    width: 1300px;
+    height: 120px;
+    background: #2C343E;  
+    display: flex;
+    justify-content: space-between;  
+}
+.cof-2{
+    width: 622px;
+    height: 26px;
+    padding: 0px, 0.1px, 0px, 0px;  
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.fo{
+    width: 236px;
+    height: 26px;
+    padding: 0.44px, 0.1px, 0.56px, 0.9px;    
+}
+ul.ikki{
+    list-style-type: none;
+    width: 283px;
+    height: 15px;
+    padding: 0px, 1px, 0px, 0px;    
+}
+li.l{
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;    
+    width: 34px;            
+    height: 15px; 
+    color: #83888F;       
+}
+li.k{
+    width: 62px;
+    height: 15px;    
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #83888F;    
+}
+li.j{
+    width: 121px;
+    height: 15px;
+    font-family: Barlow;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #83888F;        
+}
+.apps{
+    width: 120px;
+    height: 24px; 
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 50px;  
+    margin-right: 30px;
+}
+.facebook{
+    width: 24px;
+    height: 24px;
+    color: #FEFCF7;    
+}
+.twitter{
+    width: 24px;
+    height: 19.5px;
+    color: #FEFCF7;     
+}
+.insta{
+    width: 24px;
+    height: 24px;    
+    color: #FEFCF7; 
+}
+
+@media (max-width: 600px){
+    *li{
+        display: none;
+    }
+ul{
+    display: none;
+}
+.hum{
+    display: block;
+    margin-left: 380px;
+    text-align: center;
+    width: 16px;
+    height: 15px;
+    color: #333D4B;    
+}
+.a{
+ display: none;
+}   
+.ab{
+    width: 279px;
+    border-image: url(../img/back.svg);
+    background-repeat: no-repeat;
+    width: 327px;
+    height: 400px; 
+    height: 202px;  
+    display: block;  
+}
+.about{
+   width: 188px;
+   text-align: center;
+}
+.s{
+    background-image: url(../img/backs.svg);
+    background-repeat: no-repeat;
+    width: 327px;
+    height: 400px;  
+    margin-left: 50px;  
+}
+.n{
+    width: 279px;
+    height: 202px; 
+    margin-top: 100px;   
+}
+.nabout{
+    width: 188px;
+    height: 48px;
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: #FEFCF7;        
+}
+.ntext{
+    width: 279px;
+    height: 150px;
+    opacity: 80%;    
+    margin-top: 50px;   
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FEFCF7;         
+}
+.co{
+    display: none;
+}
+.hero{
+   margin-left: 10px;
+    width: 327px;
+    height: 18px;  
+    margin-top: 20px; 
+    align-items: center;
+    text-align: center; 
+    display: flex;
+}
+.bot{
+    width: 327px;
+    height: 400px;    
+}
+.cof{
+    width: 163px;    
+    height: 18px;
+    margin-top: 5px;    
+}
+section.section{
+    margin-top: 250px;
+    margin-left: 50px;
+    flex-direction: column;
+}
+.bito{
+    display: none;
+}
+.b-img{
+    width: 327px;
+    height: 453px;  
+
+}
+.our{
+    width: 327px;
+    height: 48px;    
+}
+.were{
+    width: 327px;
+    height: 375px;
+    opacity: 80%; 
+    margin-top: 30px;   
+}
+main.main{
+    margin-top: 240px;
+}
+.tex{
+   display: none;
+}
+.cu{
+    width: 279px;
+    height: 156px;
+    margin-left: 10px;
+    padding-top: -500px;
+}
+.te{
+    width: 327px;
+    height: 587px;   
+    gap: 30px; 
+    background: #2C343E;   
+}
+.t{
+    width: 279px;
+    height: 306px;  
+    text-align: center;
+    align-items: center;
+}
+.n{
+    width: 279px;
+    height: 56px;
+    font-family: Fraunces 9pt;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px;
+    color: #FEFCF7;        
+}
+.p{
+    width: 279px;
+    height: 226px;
+    opacity: 80%;    
+    font-family: Barlow;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FEFCF7;     
+}
+.flags{
+    width: 327px;
+    height: 1044px;    
+    flex-direction: column;
+    gap: 30px;
+}
+.or{
+    width: 327px;
+    height: 32px;
+    text-align: center;    
+}
+*.one{
+    width: 327px;
+    height: 262px;    
+}
+.f{
+    width: 327px;
+    height: 346px;
+    flex-direction: column;              
+}
+.cof-2{
+    flex-direction: column;
+}
+.ikki{
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.l{
+    color: #FFFFFF;
+}
+.k{
+    color: #FFFFFF;
+}
+.j{
+    color: #FFFFFF;
+}
+.footer{
+    margin-top: 1500px;
+}
+.apps{
+    width: 120px;
+    height: 24px;
+    margin-left: 90px;
+    margin-bottom: 70px;    
+}
+}

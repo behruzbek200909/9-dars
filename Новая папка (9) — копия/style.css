@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  width: 100%;
+  height: 100px;
+  background: #000;
+}
+
+.hero__wrapper {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__wrapper ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.hero__wrapper a {
+  font-family: "Manrope;", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+}
+
+.uzum__market h2 {
+  height: 100px;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: gray;
+}
+
+.geek {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.geek__kuk {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.geek__kuk h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #000;
+}
+
+.geek__kuk p {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: grey;
+}
+
+.geek__kuk h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1.2857142686843872px;
+  text-align: left;
+}
+
+.geek__kuk h3 {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1.2857142686843872px;
+  text-align: left;
+}
+
+.book {
+  width: 120px;
+  height: 48px;
+  border: none;
+  background: #f1f1f1;
+}
+
+.bug span {
+  color: grey;
+}
+
+.bokk {
+  width: 160px;
+  height: 48px;
+  background: #d87d4a;
+  border: none;
+  color: #fcfcfc;
+}
+
+.content {
+  width: 86%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content__cobined h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.1428571939468384px;
+  text-align: left;
+}
+
+.delete span {
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #d87d4a;
+}
+
+.content__cobined p {
+  height: 150px;
+  opacity: 5px;
+  font-family: "Manrope", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.delete {
+  height: 100px;
+}
+
+.delete h1 {
+  width: 350px;
+  height: 36px;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.1428571939468384px;
+  text-align: left;
+  color: #000;
+}
+
+.delete ul {
+  list-style: none;
+}
+
+.delete a {
+  text-decoration: none;
+  height: 280px;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #000;
+}
+
+.box {
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Group__from h1 {
+  height: 100px;
+  font-family: "Manrope", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.1428571939468384px;
+  text-align: center;
+  color: #000;
+}
+
+.Group__from__mimo {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meta {
+  width: 350px;
+  height: 318px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+}
+
+.meta h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 1.7142857313156128px;
+  text-align: center;
+}
+
+.meta button {
+  width: 160px;
+  height: 48px;
+  background: #d87d4a;
+  color: #f1f1f1;
+  border: none;
+  font-size: 15px;
+}
+
+.park {
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cable {
+  width: 350px;
+  height: 204px;
+  background-image: url("./Mask\ \(2\).png");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.cable h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1.2857142686843872px;
+  text-align: center;
+}
+
+.cable p {
+  opacity: 50%;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.cable span {
+  font-size: 17px;
+  color: #d87d4a;
+}
+
+.napalion {
+  width: 80%;
+  height: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.napalion__ponopart h1 {
+  height: 120px;
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.4285714626312256px;
+  text-align: left;
+}
+
+.napalion__ponopart p {
+  opacity: 80%;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.napalion__ponopart span {
+  color: #d87d4a;
+}
+
+.exact {
+  width: 1684px;
+  height: 365px;
+  background: #000;
+  color: #fff;
+}
+
+.exact__pockets {
+  width: 90px;
+  height: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exact__pocketk__strup p {
+  height: 70px;
+  opacity: 70%;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fff;
+}
+
+.parcha {
+  width: 200%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parcha ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+.parcha a {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.parcha__before {
+  width: 200%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.parcha__before a{
+  width: 40px;
+  height: 70px;
+}
+

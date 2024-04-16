@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lopotka {
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  border-bottom: 50px solid pink;
+  border-top: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+  bottom: 0%;
+  left: -10px;
+}
+
+.arqon {
+  width: 400px;
+  height: 400px;
+  background-color: pink;
+  position: relative;
+  border-radius: 10px;
+  margin: 100px;
+}
+
+.qoravaqt {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-bottom: 50px solid pink;
+  border-top: transparent 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+  bottom: 0%;
+  left: -10px;
+}
